@@ -37,6 +37,44 @@
         "single": false,
         "speed": "100"
     },
+    "ace32": {
+        "attachment2_sensitive": [
+            "0.75",
+            "0.9",
+            "1.0",
+            "1.0"
+        ],
+        "attachment3_sensitive": [
+            "0.8",
+            "1.1",
+            "1.1",
+            "1.1",
+            "1.0",
+            "0.85",
+            "1.0"
+        ],
+        "ballistic": "{1,0,0},\n{5,1,0},\n{11,1,0},\n{15,1,0},\n{20,2,0},\n{30,2,0},\n{40,0,0}",
+        "base": "3",
+        "limit": "1.2",
+        "max": "40",
+        "pose_sensitive": [
+            "1.0",
+            "1.2",
+            "0.6"
+        ],
+        "scope_sensitive": [
+            "1.0",
+            "1.0",
+            "2.2",
+            "3.1",
+            "4.0",
+            "5.1",
+            "1.0"
+        ],
+        "shift": false,
+        "single": false,
+        "speed": "84"
+    },
     "akm": {
         "attachment2_sensitive": [
             "1",
@@ -303,6 +341,44 @@
         "single": false,
         "speed": "86"
     },
+    "k2": {
+        "attachment2_sensitive": [
+            "0.75",
+            "0.75",
+            "1.0",
+            "1.0"
+        ],
+        "attachment3_sensitive": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+        ],
+        "ballistic": "{1,2,0},\n{2,0,0},\n{3,1,0},\n{4,1,0},\n{5,2,0},\n{14,2,0},\n{17,2,0},\n{18,3,0},\n{30,3,0},\n{40,0,0}",
+        "base": "3",
+        "limit": "1",
+        "max": "40",
+        "pose_sensitive": [
+            "1.0",
+            "1.2",
+            "0.6"
+        ],
+        "scope_sensitive": [
+            "1.0",
+            "1.0",
+            "2",
+            "3",
+            "4.0",
+            "5.0",
+            "1.0"
+        ],
+        "shift": false,
+        "single": false,
+        "speed": "84"
+    },
     "m16a4": {
         "attachment2_sensitive": [
             "1",
@@ -409,7 +485,7 @@
             "0.4",
             "0.95",
             "1.2",
-            "1.7",
+            "1",
             "2.2",
             "1.0"
         ],
@@ -986,6 +1062,44 @@
         "shift": false,
         "single": false,
         "speed": "100"
+    },
+    "ump45": {
+        "attachment2_sensitive": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.2"
+        ],
+        "attachment3_sensitive": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+        ],
+        "ballistic": "{1,0,0},\n{12,0,0},\n{20,0,0},\n{35,0,0}",
+        "base": "2",
+        "limit": "1",
+        "max": "35",
+        "pose_sensitive": [
+            "1.0",
+            "1.0",
+            "1.0"
+        ],
+        "scope_sensitive": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+        ],
+        "shift": false,
+        "single": false,
+        "speed": "84"
     },
     "uzi": {
         "attachment2_sensitive": [

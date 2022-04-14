@@ -1,7 +1,7 @@
 {
     "bloodcolor": 0,
-    "rate": 16,
+    "rate": 6,
     "scopemode": 0,
-    "xrate": 1,
-    "yrate": 1
+    "xrate": 0.5,
+    "yrate": 0
 }
