@@ -1,6 +1,7 @@
 {
     "adsmode": 0,
     "debug": false,
+    "scope_sensitive": 35,
     "sleep": 10,
     "xbase": 30,
     "y_sensitive": 1.2
