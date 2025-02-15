@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>PUBG No Recoil - By CalvinXu17</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="RecognizeView" name="recognizeView">
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <attribute name="title">
+        <string>自动识别</string>
+       </attribute>
+      </widget>
+      <widget class="WeaponConfigView" name="weaponconfigview">
+       <attribute name="title">
+        <string>武器参数</string>
+       </attribute>
+      </widget>
+      <widget class="MacroConfigView" name="macroconfigview">
+       <attribute name="title">
+        <string>宏配置</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RecognizeView</class>
+   <extends>QWidget</extends>
+   <header>recognizeview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WeaponConfigView</class>
+   <extends>QWidget</extends>
+   <header>weaponconfigview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MacroConfigView</class>
+   <extends>QWidget</extends>
+   <header>macroconfigview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

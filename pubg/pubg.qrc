@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>configc_ghub.lua</file>
+        <file>macro_ghub.lua</file>
+        <file>pubg.ico</file>
+        <file>rec.lua</file>
+        <file>weapon.lua</file>
+    </qresource>
+</RCC>
